@@ -1,0 +1,66 @@
+]</* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+fieldset {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: pink;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

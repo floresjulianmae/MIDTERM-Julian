@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <form method="post" action="submit_form.php">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firstname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname"/>
+              <div>
+                 <br>
+            <label for="middlename">Middle Name:</label><br>
+            <input type="text" id="middlename" name="middlename"/>
+             <div>
+                <br>
+            <label for="lastname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname"/>
+            </div>
+                <br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"/>
+        </fieldset>
+
+        <fieldset>
+            <legend>Security</legend>
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password"/>
+             </div>
+                <br>
+            <label for="contact">Contact:</label><br>
+            <input type="text" id="contact" name="contact"/>
+               </div>
+                 <br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"/>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preference</legend>
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="female" name="gender" value="F"/> 
+            <label for="female">Female</label><br>
+             </div>
+               <br>
+            <input type="radio" id="male" name="gender" value="M"/> 
+            <label for="male">Male</label><br>
+             </div>
+            <br>
+            <label for="Nickname">Nickname:</label><br>
+            <select id="Nickname">
+                <option>yannex</option>
+                <option>yanyan</option>
+                <option>Mae</option>
+            </select>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
