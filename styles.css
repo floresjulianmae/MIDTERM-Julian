@@ -1,66 +1,91 @@
-]</* Reset default styling */
-* {
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:violet;
+    color: #333;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
-body {
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+h1, h2 {
+    text-align: center;
+    color:green;
+    margin-top: 20px;
 }
 
-form {
+p {
+    text-align: center;
+    margin: 10px 20px;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+.header {
+    background-color: #34495e;
+    padding: 10px;
+    color: white;
+}
+
+/* Fieldset Styling */
+.favorite-section {
+    margin: 20px auto;
+    width: 80%;
     max-width: 400px;
-    margin: auto;
-}
-
-fieldset {
-    border: 2px solid red;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: pink;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #orange;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
 }
 
 legend {
-    font-size: 1.2rem;
     font-weight: bold;
-    color: #4CAF50;
+    color: #2980b9;
+    padding: 0 10px;
 }
 
 label {
-    font-weight: bold;
-}
-
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
+    display: inline-block;
     margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    font-size: 16px;
 }
 
-input[type="radio"] {
-    margin-right: 5px;
+/* Personality Section */
+#personality {
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Button Styling */
 button {
-    background-color: #4CAF50;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color:green;
     color: white;
     border: none;
-    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 4px;
-    margin-top: 10px;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color:gray;
 }
